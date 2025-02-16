@@ -16,12 +16,12 @@ Membuat Website Kasir
 
 ## LOGIN
 ```Admin```: 
-username: ikan
-pass: 123
+- username: ikan
+- pass: 123
 
 ```Petugas```
-username: tes
-pass: 123
+- username: tes
+- pass: 123
 
 ## DOKUMENTASI PWEB
 
