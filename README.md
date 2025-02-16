@@ -36,7 +36,7 @@ Membuat Website Kasir
 ## Melihat tampilan website
 ```localhost/kasir``` atau ```localhost/<nama_folder>``` jika folder yang diberikan berbeda
 
-## DOKUMENTASI PWEB
+## DOKUMENTASI PWEB API and Object
 
 folder: `model/`
 
