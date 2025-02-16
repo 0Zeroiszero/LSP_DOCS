@@ -1,4 +1,4 @@
-# PWEB CRUD  
+# PWEB CRUD  & JAVA
 
 Membuat Website Kasir
 ------------
@@ -23,15 +23,18 @@ Membuat Website Kasir
 - username: tes
 - pass: 123
 
-## Nama databae
+## Nama database
 ```kasir```: untuk mempermudah penyambungan ke API
 
 ## Cara Import Database
-1. download  file ```kasir_sql```
+1. file ```kasir_sql```
 2. browser ```localhost/phpmyadmin```
 3. buat database baru bernama ```kasir```
 4. pilih opsi import
-5. pilih file yang sebelumnya di-download
+5. pilih file ```kasir_sql``` untuk di-import
+
+## Melihat tampilan website
+```localhost/kasir``` atau ```localhost/<nama_folder>``` jika folder yang diberikan berbeda
 
 ## DOKUMENTASI PWEB
 
