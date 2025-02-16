@@ -48,13 +48,14 @@ folder: `model/`
 class DatabaseCRUD::__construct();
 ```
 Mencari koneksi database
+
 @param mysqli $database
 @return mysqli
 
 ```php
 DatabaseCRUD::create();
 ```
-Create (insert into) pada database\
+Create (insert into) pada database
 
 @param String $table adalah nama tabel\
 @param boolean $for_create_user true untuk menambah user\
@@ -64,7 +65,7 @@ Create (insert into) pada database\
 ```php
 DatabaseCRUD::read();
 ```
-Mengambil data dari database\
+Mengambil data dari database
 
 @param String $table adalah nama tabel\
 @param mixed $primary_key diambil dari $_GET dan harus sama dengan fields di database\
@@ -74,7 +75,7 @@ Mengambil data dari database\
 ```php
 DatabaseCRUD::update();
 ```
-Mengupdate data\
+Mengupdate data
 
 @param String $table adalah nama tabel\
 @param Mixed $primary_key diambil dari metode get, mis. id atau user_id atau detail_id\
@@ -83,7 +84,7 @@ Mengupdate data\
 ```php
 DatabaseCRUD::delete();
 ```
-Menghapus value database\
+Menghapus value database
 
 @param String $table nama tabel\
 @param Mixed $primary_key diambil dari $_GET dan harus sama dengan fields di database\
@@ -92,16 +93,16 @@ Menghapus value database\
 ```php
 DatabaseCRUD::count_data();
 ```
-Menghitung data pada satu buah kolom atau baris\
+Menghitung data pada satu buah kolom atau baris
 
 @param String $table nama tabel\
-@param String $field kolom atau baris\
+@param String $field kolom atau baris
 
 ### class LoginValidator
 ```php
 LoginValidator::__construct();
 ```
-Mencari koneksi database\
+Mencari koneksi database
 
 @param mysqli $database\
 @return mysqli
@@ -109,7 +110,7 @@ Mencari koneksi database\
 ```php
 LoginValidator::validate();
 ```
-Validasi login dengan username dan password\
+Validasi login dengan username dan password
 
 @param String $username\
 @param String $password\
@@ -118,7 +119,7 @@ Validasi login dengan username dan password\
 ```php
 LoginValidator::check_login_status();
 ```
-true jika user telah login false jika belum\
+true jika user telah login false jika belum
 
 @param array $session - sesi dari session_start\
 @return bool
