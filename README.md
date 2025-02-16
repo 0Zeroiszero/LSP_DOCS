@@ -1,3 +1,6 @@
+# Penafian
+> DOKUMENTASI LSP
+
 # PWEB CRUD  & JAVA
 
 Membuat Website Kasir
