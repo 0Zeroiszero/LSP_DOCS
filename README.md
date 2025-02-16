@@ -23,6 +23,16 @@ Membuat Website Kasir
 - username: tes
 - pass: 123
 
+## Nama databae
+```kasir```: untuk mempermudah penyambungan ke API
+
+## Cara Import Database
+1. download  file ```kasir_sql```
+2. browser ```localhost/phpmyadmin```
+3. buat database baru bernama ```kasir```
+4. pilih opsi import
+5. pilih file yang sebelumnya di-download
+
 ## DOKUMENTASI PWEB
 
 folder: `model/`
