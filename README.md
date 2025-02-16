@@ -14,6 +14,15 @@ Membuat Website Kasir
 |  PEMBELIAN | -  | -  |
 |  STOK BARANG | YA  | YA  |
 
+## LOGIN
+```Admin```: 
+username: ikan
+pass: 123
+
+```Petugas```
+username: tes
+pass: 123
+
 ## DOKUMENTASI PWEB
 
 folder: `model/`
