@@ -54,10 +54,10 @@ Mencari koneksi database
 ```php
 DatabaseCRUD::create();
 ```
-Create (insert into) pada database
-@param String $table adalah nama tabel
-@param boolean $for_create_user true untuk menambah user
-@param String ...$fields adalah post method
+Create (insert into) pada database\
+@param String $table adalah nama tabel\
+@param boolean $for_create_user true untuk menambah user\
+@param String ...$fields adalah post method\
 @return bool
 
 ```php
